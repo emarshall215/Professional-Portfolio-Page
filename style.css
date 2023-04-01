@@ -10,11 +10,12 @@ nav{
 }
 
 .main{
-    padding-top: 20%;
+    padding-top: 24%;
+    gap: 10%;
 }
 
 body{
-    background: linear-gradient( to bottom, hotPink, purple, lightBlue);
+    background: linear-gradient( to bottom, hotPink, purple, rgb(30, 186, 239));
 }
 
 .container {
@@ -68,3 +69,8 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.cust-review{
+    color:white
+}
+
