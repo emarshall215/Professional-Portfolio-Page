@@ -1,2 +1,59 @@
+.hero-section {
+    height: 100vh;
+   
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
 
 
+#main-img{
+    position: absolute;
+    width: 350px;
+    border-radius: 2000px;
+    border: 1px solid black;
+    margin-top: 40%;
+
+    
+
+}
+
+.heroText {
+    margin-top: 14%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: #9773A4;
+    background: -moz-linear-gradient(-45deg, #9773A4 0%, #2388CB 50%, #050E14 100%);
+    background: -webkit-linear-gradient(-45deg, #9773A4 0%, #2388CB 50%, #050E14 100%);
+    background: linear-gradient(135deg, #9773A4 0%, #2388CB 50%, #050E14 100%);
+    color: #fff
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+
+}
+
+button{
+    border-radius: 50px;
+    color: #9773A4;
+    box-shadow: 1px 1px 5px 2px aliceblue;
+    background-color: #2388CB;
+    color: blue;
+}
+
+#social-links{
+    display: flex;
+    justify-content: space-between;
+}
